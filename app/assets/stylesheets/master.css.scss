@@ -1,0 +1,42 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import 'https://fonts.googleapis.com/css?family=Paytone+One|Reenie+Beanie';
+
+h1 {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 60px;
+  color: rgb(66,134,244);
+}
+
+h2 {
+  color: white;
+}
+
+h3{
+  font-family: 'Reenie Beanie', cursive;
+}
+
+
+.question h2{
+  color: black;
+  font-family: 'Reenie Beanie', cursive;
+}
+
+.question {
+  border-style: dashed;
+  padding: 15px;
+}
+
+.btn-lg{
+  font-family: 'Reenie Beanie', cursive;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-yes{
+  background-color: green;
+}
+
+.btn-no{
+  background-color: red;
+}
