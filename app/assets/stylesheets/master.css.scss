@@ -16,7 +16,6 @@ h3{
   font-family: 'Reenie Beanie', cursive;
 }
 
-
 .question h2{
   color: black;
   font-family: 'Reenie Beanie', cursive;
@@ -39,4 +38,15 @@ h3{
 
 .btn-no{
   background-color: red;
+}
+
+input[type=radio] {
+  margin: 10px;
+}
+
+.bets{
+  margin: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 2px;
 }

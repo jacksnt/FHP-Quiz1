@@ -1,0 +1,13 @@
+<h1>List of bets:</h1>
+
+<% @bets.each do |bet| %>
+  <div class="bets col-xs-12 col-md-6">
+    <strong> Bet Title: </strong><%= bet.bet %>
+    <br/>
+    <strong>Bet Amount: </strong><%= number_to_currency bet.amount %>
+    <br/>
+    <strong>Parties Involved: </strong><%= bet.party %>
+    <br/>
+    <strong>Bet Status: </strong><%= bet.status==true ? "Completed" : "In Progress" %>
+  </div>
+<% end %>

@@ -1,0 +1,13 @@
+<h1> Make a bet</h1>
+
+<%= simple_form_for @bet do |f| %>
+  <%= f.input :bet %>
+  <%= f.input :amount %>
+  <%= f.input :party %>
+  <br/>
+  <label>Status: </label>
+  <%= f.collection_radio_buttons :status, [[true, 'Completed'] ,[false, 'In Progress']], :first, :last %>
+  <br/>
+  <br/>
+  <%= f.submit "Create", class: 'btn btn-primary' %>
+<% end %>
